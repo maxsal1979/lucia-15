@@ -1,0 +1,23 @@
+import './App.css'
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img
+          src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+          alt="Lucía"
+          className="main-image"
+        />
+        <h1>¡Estás invitado al cumpleaños de 15 de Lucía!</h1>
+        <p><strong>🗓 12 de julio de 2025 - 21:00 hs</strong></p>
+        <p>📍 Av. 578 Nº 2670, Quequén - Salón Kem Kem</p>
+        <a className="confirm-btn" href="https://docs.google.com/forms/d/1HTJ4UHVnTseDwuWIoaNtmMKvwmo_ssayoX9iDfOpo2o" target="_blank" rel="noreferrer">
+          Confirmar asistencia
+        </a>
+      </header>
+    </div>
+  )
+}
+
+export default App
